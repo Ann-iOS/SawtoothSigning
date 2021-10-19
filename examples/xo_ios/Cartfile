@@ -1,0 +1,3 @@
+github "apple/swift-protobuf" ~> 1.0
+github "Boilertalk/secp256k1.swift"
+github "hyperledger/sawtooth-sdk-swift" "master"
