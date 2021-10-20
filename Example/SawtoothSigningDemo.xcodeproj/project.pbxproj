@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8117D233271FB4F900F2D545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117D232271FB4F900F2D545 /* AppDelegate.swift */; };
+		8117D235271FB4F900F2D545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117D234271FB4F900F2D545 /* SceneDelegate.swift */; };
+		8117D237271FB4F900F2D545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117D236271FB4F900F2D545 /* ViewController.swift */; };
+		8117D23A271FB4F900F2D545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8117D238271FB4F900F2D545 /* Main.storyboard */; };
+		8117D23C271FB50200F2D545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8117D23B271FB50200F2D545 /* Assets.xcassets */; };
+		8117D23F271FB50200F2D545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8117D23D271FB50200F2D545 /* LaunchScreen.storyboard */; };
+		912D344BC1B0574FBEEC9415 /* Pods_SawtoothSigningDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C472B0A97C7C140E0B806A /* Pods_SawtoothSigningDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26F56CD815665415C6544080 /* Pods-SawtoothSigningDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SawtoothSigningDemo.release.xcconfig"; path = "Target Support Files/Pods-SawtoothSigningDemo/Pods-SawtoothSigningDemo.release.xcconfig"; sourceTree = "<group>"; };
+		57C472B0A97C7C140E0B806A /* Pods_SawtoothSigningDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SawtoothSigningDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E5B93D8ECEF1F1F7503C31 /* Pods-SawtoothSigningDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SawtoothSigningDemo.debug.xcconfig"; path = "Target Support Files/Pods-SawtoothSigningDemo/Pods-SawtoothSigningDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8117D22F271FB4F900F2D545 /* SawtoothSigningDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SawtoothSigningDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8117D232271FB4F900F2D545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8117D234271FB4F900F2D545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8117D236271FB4F900F2D545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8117D239271FB4F900F2D545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8117D23B271FB50200F2D545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8117D23E271FB50200F2D545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8117D240271FB50200F2D545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8117D22C271FB4F900F2D545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912D344BC1B0574FBEEC9415 /* Pods_SawtoothSigningDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A17F59EDE102E4D130A26C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59E5B93D8ECEF1F1F7503C31 /* Pods-SawtoothSigningDemo.debug.xcconfig */,
+				26F56CD815665415C6544080 /* Pods-SawtoothSigningDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8117D226271FB4F900F2D545 = {
+			isa = PBXGroup;
+			children = (
+				8117D231271FB4F900F2D545 /* SawtoothSigningDemo */,
+				8117D230271FB4F900F2D545 /* Products */,
+				40A17F59EDE102E4D130A26C /* Pods */,
+				BE62E15FFEF450CC91E8D411 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8117D230271FB4F900F2D545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8117D22F271FB4F900F2D545 /* SawtoothSigningDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8117D231271FB4F900F2D545 /* SawtoothSigningDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8117D232271FB4F900F2D545 /* AppDelegate.swift */,
+				8117D234271FB4F900F2D545 /* SceneDelegate.swift */,
+				8117D236271FB4F900F2D545 /* ViewController.swift */,
+				8117D238271FB4F900F2D545 /* Main.storyboard */,
+				8117D23B271FB50200F2D545 /* Assets.xcassets */,
+				8117D23D271FB50200F2D545 /* LaunchScreen.storyboard */,
+				8117D240271FB50200F2D545 /* Info.plist */,
+			);
+			path = SawtoothSigningDemo;
+			sourceTree = "<group>";
+		};
+		BE62E15FFEF450CC91E8D411 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C472B0A97C7C140E0B806A /* Pods_SawtoothSigningDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8117D22E271FB4F900F2D545 /* SawtoothSigningDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8117D243271FB50200F2D545 /* Build configuration list for PBXNativeTarget "SawtoothSigningDemo" */;
+			buildPhases = (
+				01AF7901E8A3063B9CDA0924 /* [CP] Check Pods Manifest.lock */,
+				8117D22B271FB4F900F2D545 /* Sources */,
+				8117D22C271FB4F900F2D545 /* Frameworks */,
+				8117D22D271FB4F900F2D545 /* Resources */,
+				5BEC685F41E726AAF11EA788 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SawtoothSigningDemo;
+			productName = SawtoothSigningDemo;
+			productReference = 8117D22F271FB4F900F2D545 /* SawtoothSigningDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8117D227271FB4F900F2D545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8117D22E271FB4F900F2D545 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 8117D22A271FB4F900F2D545 /* Build configuration list for PBXProject "SawtoothSigningDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8117D226271FB4F900F2D545;
+			productRefGroup = 8117D230271FB4F900F2D545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8117D22E271FB4F900F2D545 /* SawtoothSigningDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8117D22D271FB4F900F2D545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8117D23F271FB50200F2D545 /* LaunchScreen.storyboard in Resources */,
+				8117D23C271FB50200F2D545 /* Assets.xcassets in Resources */,
+				8117D23A271FB4F900F2D545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01AF7901E8A3063B9CDA0924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SawtoothSigningDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BEC685F41E726AAF11EA788 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SawtoothSigningDemo/Pods-SawtoothSigningDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SawtoothSigningDemo/Pods-SawtoothSigningDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SawtoothSigningDemo/Pods-SawtoothSigningDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8117D22B271FB4F900F2D545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8117D237271FB4F900F2D545 /* ViewController.swift in Sources */,
+				8117D233271FB4F900F2D545 /* AppDelegate.swift in Sources */,
+				8117D235271FB4F900F2D545 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8117D238271FB4F900F2D545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8117D239271FB4F900F2D545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8117D23D271FB50200F2D545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8117D23E271FB50200F2D545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8117D241271FB50200F2D545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8117D242271FB50200F2D545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8117D244271FB50200F2D545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E5B93D8ECEF1F1F7503C31 /* Pods-SawtoothSigningDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4654J23WVM;
+				INFOPLIST_FILE = SawtoothSigningDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dzh.com.SawtoothSigningDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8117D245271FB50200F2D545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F56CD815665415C6544080 /* Pods-SawtoothSigningDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4654J23WVM;
+				INFOPLIST_FILE = SawtoothSigningDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dzh.com.SawtoothSigningDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8117D22A271FB4F900F2D545 /* Build configuration list for PBXProject "SawtoothSigningDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8117D241271FB50200F2D545 /* Debug */,
+				8117D242271FB50200F2D545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8117D243271FB50200F2D545 /* Build configuration list for PBXNativeTarget "SawtoothSigningDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8117D244271FB50200F2D545 /* Debug */,
+				8117D245271FB50200F2D545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8117D227271FB4F900F2D545 /* Project object */;
+}

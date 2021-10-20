@@ -1,0 +1,11 @@
+platform :ios, '10.0'
+
+target 'SawtoothSigningDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+	pod 'SawtoothSigning', :path => '../'
+
+  # Pods for SawtoothSigningDemo
+
+end
