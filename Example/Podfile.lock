@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SawtoothSigning: 1e594db41b4ec4460a7c21b50b0c583e0459bb97
+  SawtoothSigning: 4e5951c040a689d681c9ec2160180daa3a3ea50c
   secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
 
 PODFILE CHECKSUM: 1758f20d26e71b95aa6411f9d7ceceee6061855c
