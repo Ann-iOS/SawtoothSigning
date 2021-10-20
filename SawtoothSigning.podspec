@@ -27,8 +27,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Ann-iOS/SawtoothSigning.git", :tag => spec.version.to_s }
 
-  spec.pod_target_xcconfig = { 'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)' }
-
+  # spec.pod_target_xcconfig = { 'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)' }
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64' }
 
   spec.source_files  = "SawtoothSigning", "SawtoothSigning/**/*.{h,m}"
 
